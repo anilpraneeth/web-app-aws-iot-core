@@ -2,6 +2,8 @@
 
 A React TypeScript web application that subscribes to AWS IoT Core MQTT topics and displays messages in real-time.
 
+![AWS IoT Core Web Subscriber Screenshot](images/app-screenshot.png)
+
 ## Prerequisites
 
 - Node.js (v16 or later)
