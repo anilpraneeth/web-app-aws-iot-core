@@ -1,0 +1,80 @@
+.iot-subscriber {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.connection-status {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #e6ffe6;
+    border-radius: 4px;
+}
+
+.connection-status.disconnected {
+    background-color: #ffe6e6;
+}
+
+.subscription-form {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.subscription-form input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.subscription-form button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.subscription-form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.error {
+    color: red;
+    margin: 10px 0;
+}
+
+.messages {
+    margin-top: 20px;
+}
+
+.message {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+.message-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.topic {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.timestamp {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.payload {
+    white-space: pre-wrap;
+    font-family: monospace;
+} 
